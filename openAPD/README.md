@@ -1,7 +1,21 @@
-#### simple usage
+## Introduction
+OpenAPD is a change detection toolbox based on a series of open source general vision task tools.
+
+## Plan
+Support for
+
+- [x] [MMSegmentation](https://github.com/open-mmlab/mmsegmentation)
+- [x] [Open-CD](https://github.com/likyoo/open-cd)
+
+## Usage
+
+[Docs](https://github.com/open-mmlab/mmsegmentation/tree/master/docs)
+
+Please refer to [get_started.md](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/en/get_started.md#installation) in mmseg.(Thanks to https://github.com/likyoo/open-cd for this demo)
+
+#### simple Usage
 ```
 cd openAPD
-
 pip install -v -e .
 ```
 #### prepare datasets
